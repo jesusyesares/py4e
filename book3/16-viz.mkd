@@ -23,7 +23,7 @@ En este proyecto usaremos la API de geocodificación de Google para limpiar vari
 ubicaciones geográficas de nombres de universidades introducidas por los
 usuarios, y luego colocaremos los datos en un mapa de Google.
 
-![A Google Map](../images/google-map)
+![A Google Map](../images/google-map.png)
 
 Para comenzar, descarga la aplicación desde:
 
@@ -150,7 +150,7 @@ Puedes descargar y extraer esta aplicación desde:
 
 [www.py4e.com/code3/pagerank.zip](http://www.py4e.com/code3/pagerank.zip)
 
-![A Page Ranking](height=3.5in@../images/pagerank)
+![A Page Ranking](height=3.5in@../images/pagerank.png)
 
 El primer programa (*spider.py*) rastrea un sitio web y envía una serie de páginas
 a la base de datos (*spider.sqlite*), guardando los enlaces entre páginas. Puedes
@@ -272,10 +272,9 @@ How many nodes? 30
 Open force.html in a browser to view the visualization
 ~~~~
 
-You can view this data by opening the file *force.html*
-in your web browser. This shows an automatic layout of the nodes and
-links. You can click and drag any node and you can also double-click on
-a node to find the URL that is represented by the node.
+Puedes ver estos datos abriendo el fichero *force.html*
+en tu navegador web. Esto muestra una disposición automática de los nodos y
+enlaces. Puedes hacer clic y arrastrar cualquier nodo y también puedes hacer doble clic en un nodo para encontrar la URL que éste representa.
 
 Si vuelves a ejecutar las otras utilidades, ejecuta de nuevo *spjson.py* y pulsa actualizar
 en el navegador para obtener los datos actualizados desde *spider.json*.
@@ -293,7 +292,7 @@ estar llenos de errores, y necesitar un montón de limpieza y ajustes. En esta s
 trabajaremos con la aplicación más compleja que hemos visto hasta ahora,
 que descarga casi un gigabyte de datos y los visualiza.
 
-![A Word Cloud from the Sakai Developer List](height=3.5in@../images/wordcloud)
+![A Word Cloud from the Sakai Developer List](height=3.5in@../images/wordcloud.png)
 
 Puedes descargar la aplicación desde:
 
@@ -400,8 +399,7 @@ Loaded allsenders 1588 and mapping 28 dns mapping 1
 ...
 ~~~~
 
-The *gmodel.py* program handles a number of data cleaning
-tasks.
+El programa *gmodel.py* maneja un número de tareas para limpieza de datos.
 
 Los nombres de dominio son truncados a dos niveles para .com, .org, .edu y
 .net. Otros nombres de dominio son truncados a tres niveles. De modo que
@@ -509,7 +507,7 @@ Output written to gline.js
 
 Su resultado es guardado en *gline.js*, que se puede visualizar usando *gline.htm*.
 
-![Sakai Mail Activity by Organization](../images/mailorg)
+![Sakai Mail Activity by Organization](../images/mailorg.png)
 
 Esta aplicación es relativamente compleja y sofisticada, y dispone de características
 para realizar recuperación de datos reales, limpieza y visualización.
